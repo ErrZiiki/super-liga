@@ -33,4 +33,7 @@ public class club
     public void setSancionado(boolean sancionar){
         sancionado=sancionar;
     }
+    public void imprimirDetalles(){
+        System.out.println("Club: " + denomClub + "Sancionado: " + sancionado);
+    }
 }
