@@ -18,4 +18,19 @@ public class club
     {
         
     }
+    public String getDenomClub(){
+        return denomClub;
+    }
+    
+    public void setDenomClub(String nuevoNombre){
+        denomClub = nuevoNombre;
+    }
+    
+    public boolean getSancionado(){
+        return sancionado;
+    }
+    
+    public void setSancionado(boolean sancionar){
+        sancionado=sancionar;
+    }
 }
