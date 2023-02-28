@@ -5,7 +5,7 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class club
+public class Club
 {
     // instance variables - replace the example below with your own
     private String denomClub;
@@ -14,9 +14,8 @@ public class club
     /**
      * Constructor for objects of class club
      */
-    public club()
+    public Club()
     {
-        
     }
     public String getDenomClub(){
         return denomClub;
