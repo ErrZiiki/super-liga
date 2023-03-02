@@ -12,9 +12,10 @@ public class Liga
     /**
      * Constructor for objects of class liga
      */
-    public Liga()
+    public Liga(String nombre, int max, Club equipo)
     {
+        this.nombre = nombre;
+        maxClubes = max;
+        this.equipo = equipo;
     }
-
-
 }
