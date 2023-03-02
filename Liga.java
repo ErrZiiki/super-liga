@@ -23,7 +23,7 @@ public class Liga
         return nombre;
     }
     
-    public int getmaxClubes(){
+    public int getMaxClubes(){
         return maxClubes;
     }
     
@@ -40,6 +40,6 @@ public class Liga
         equipo = nuevoEquipo;
     }
     public void imprimirDetalles(){
-        System.out.println("Nombre: " + nombre + "Maximo clubes: " + maxClubes + "Equipo: " + equipo);
+        System.out.println("Nombre: " + nombre + " Maximo clubes: " + maxClubes + " Nombre equipo: " + equipo.getDenomClub() + " Sancionado: " + equipo.getSancionado());
     }
 }
