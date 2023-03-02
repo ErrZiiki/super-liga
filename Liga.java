@@ -39,4 +39,7 @@ public class Liga
     public void setEquipo(Club nuevoEquipo){
         equipo = nuevoEquipo;
     }
+    public void imprimirDetalles(){
+        System.out.println("Nombre: " + nombre + "Maximo clubes: " + maxClubes + "Equipo: " + equipo);
+    }
 }
