@@ -27,7 +27,16 @@ public class Liga
         return maxClubes;
     }
     
-    public Club getequipo(){
+    public Club getEquipo(){
         return equipo;
+    }
+    public void setNombre(String nuevoNombre){
+        nombre = nuevoNombre;
+    }
+    public void setMaxClubes(int maxClubes){
+        this.maxClubes = maxClubes;
+    }
+    public void setEquipo(Club nuevoEquipo){
+        equipo = nuevoEquipo;
     }
 }
