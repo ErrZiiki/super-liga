@@ -18,4 +18,16 @@ public class Liga
         maxClubes = max;
         this.equipo = equipo;
     }
+    
+    public String getNombre(){
+        return nombre;
+    }
+    
+    public int getmaxClubes(){
+        return maxClubes;
+    }
+    
+    public Club getequipo(){
+        return equipo;
+    }
 }
