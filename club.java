@@ -16,7 +16,6 @@ public class Club
      */
     public Club()
     {
-        
     }
     public String getDenomClub(){
         return denomClub;
